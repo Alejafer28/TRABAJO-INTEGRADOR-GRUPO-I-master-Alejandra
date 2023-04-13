@@ -107,8 +107,11 @@ background: url(./img/imagenSeccion-1.jpg);
 background-attachment: fixed;
 background-size: cover;
 text-align: center;
+font-size: 30px;
+color: #383838;
+-webkit-text-stroke: 2px black
 padding: 90px 150px;
-
+#0A0A0
 }
 
 .sectionPrimeraDiv {
