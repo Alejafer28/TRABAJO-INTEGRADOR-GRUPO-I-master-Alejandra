@@ -1,3 +1,8 @@
+/*GOOGLE FONTS*/
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
 * {
 
     margin: 0;
@@ -20,8 +25,7 @@ flex-direction: row;
 justify-content:space-evenly;
 align-items:center;
 padding: 5px;
-background-color: rgb(140, 191, 241);
-
+background-color: rgb(24, 81,129);
 
 
 }
@@ -30,7 +34,7 @@ background-color: rgb(140, 191, 241);
 .containerHeader .instagram .textoHeader {
 
 text-decoration: none;
-color: black;
+color: white;
 font-size: 15px;
 
 }
@@ -38,7 +42,7 @@ font-size: 15px;
 .containerHeader .facebook .textoHeader {
 
     text-decoration: none;
-    color: black;
+    color:white;
     font-size: 15px;
     
     
@@ -47,7 +51,7 @@ font-size: 15px;
     .containerHeader .twitter .textoHeader {
 
         text-decoration: none;
-        color: black;
+        color:white;
         font-size: 15px;
         
         
@@ -56,7 +60,7 @@ font-size: 15px;
     .containerHeader .youtube .textoHeader {
 
         text-decoration: none;
-        color: black;
+        color:white;
         font-size: 15px;
             
             
@@ -66,6 +70,7 @@ font-size: 15px;
 
 
         text-decoration: none;
+
     }
 
     .containerHeader .facebook a {
@@ -107,12 +112,11 @@ background: url(./img/imagenSeccion-1.jpg);
 background-attachment: fixed;
 background-size: cover;
 text-align: center;
-font-size: 30px;
-color: #383838;
--webkit-text-stroke: 2px black
+font-size: 35px;
 padding: 90px 150px;
-#0A0A0
+
 }
+
 
 .sectionPrimeraDiv {
 
@@ -123,14 +127,24 @@ align-items: center;
 
 }
 
-.sectionPrimeraDiv h1{
+.sectionPrimeraDiv h1, h2 {
 
+font-family:"Schibsted Grotesk", sans-serif;
 font-size: 50px;
 font-weight: 900;
 margin-bottom: 20px;
-
+color: #383838;
 
 }
+
+.sectionPrimera p {
+
+    color:rgb(18, 63, 99);
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgb(250, 250, 250);
+    
+    }
+
 /*FIN SECTION GRUPO i*/
 
 /*SECTION QUIENES SOMOS*/
@@ -145,6 +159,23 @@ gap: 20px;
 
 }
 
+.sectionSegundatitulo h2 {
+
+    color:  rgb(24, 81,129);
+    font-size: 40px;
+}
+
+.sectionSegundaParrafo {
+
+    font-size: 20px;
+}
+
+
+.sectionSegundaParrafo p {
+
+    font-size: 25px;
+}
+/*SECTION TITULO SERVICIOS*/
 .servicios {
 
 display: grid;
@@ -155,7 +186,14 @@ margin-top: 40px;
 
 }
 
-/*SECTION TITULO SERVICIOS*/
+
+
+.tituloServicios {
+
+    color:  rgb(24, 81,129);
+    font-size: 40px;
+}
+
 
 .servicios .serviciosImagen img {
 
@@ -167,18 +205,56 @@ margin-top: 40px;
 .servicios .serviciosTexto {
 
     text-align: center;
+    font-size: 22px;
 
 }
 
 .servicios .serviciosTexto h3 {
 
     padding: 25px 25px;
+    
 }
+
+.sectionServicios .computadoras .textoComputadoras h3 {
+
+    color: rgb(32, 109, 172) ;
+
+}
+
+.sectionServicios .smartphone .textoSmartPhone h3 {
+
+    color: rgb(32, 109, 172) ;
+}
+
+.sectionServicios .camaraSeguridad .textoCamaras h3 {
+
+    color: rgb(32, 109, 172) ;
+
+}
+
+.sectionServicios .backUp .textoBackup h3 {
+
+    color: rgb(32, 109, 172) ;
+    
+}
+.sectionServicios .hosting .textoHosting h3 {
+
+    color: rgb(32, 109, 172) ;
+}
+
+.sectionServicios .software .textoSoftware h3 {
+
+    color: rgb(32, 109, 172) ;
+
+}
+
 .servicios .serviciosTexto p {
 
     text-align: center;
     padding: 30px 30px;
-}
+    
+
+    }
 
 
 .tituloServicios {
@@ -269,6 +345,10 @@ gap: 35px;
 
     text-align: center;
 
+}
+.ventaequipos .card-body .card-text{
+
+    display: flex;
 }
 
 /*FIN SECTION VENTA EQUIPOS*/
