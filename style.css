@@ -107,14 +107,14 @@ font-size: 15px;
 /*SECTION GRUPO I*/
 
 .sectionPrimera {
-height: 500px;
+
 display: flex;
 grid-template-columns: 1fr;
 background: url(./img/imagenSeccion-1.jpg);
 background-attachment: fixed;
 background-size: cover;
 text-align: center;
-font-size: 20px;
+font-size: 10px;
 padding: 90px 150px;
 
 }
@@ -143,7 +143,7 @@ color: #383838;
 .sectionPrimeraDiv h2 {
 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #383838;
 }
 
@@ -334,7 +334,7 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239);
     
 }
 
@@ -343,7 +343,7 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239);
 }
 
 .sectionServicios .camaraSeguridad .imgCamaraSeguridad img {
@@ -351,7 +351,7 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239);
 }
 
 .sectionServicios .backUp .imgBackup img {
@@ -359,7 +359,7 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239)
 }
 
 .sectionServicios .hosting .imgHosting img {
@@ -367,7 +367,7 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239);
 }
 
 .sectionServicios .software .imgSoftware img {
@@ -375,8 +375,9 @@ margin-top: 30px;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    box-shadow:  5px 5px 5px 5px #A1A1FF;
-}
+    box-shadow:  5px 5px 5px 5px rgb(171, 208, 239);
+
+    }
 
 /*FIN SECTIOS SERVICIOS*/
 
@@ -423,7 +424,7 @@ margin-top: 30px;
 }
 .textoContacto h2 {
 
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .contacto {
