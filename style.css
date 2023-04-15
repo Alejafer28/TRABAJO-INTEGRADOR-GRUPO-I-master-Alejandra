@@ -381,42 +381,34 @@ margin-top: 30px;
 
 /*FIN SECTIOS SERVICIOS*/
 
-/*SECTION COTIZADOR*/
+/*SECTION RECLAMOS*/
 
-.containerCotizador h2 {
+.containerReclamos h2 {
 
+    display: grid;
     text-align: center;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(171, 208, 239);
     color:  rgb(24, 81,129);
     font-size: 30px;
 }
-
-
-.containerCotizador .containerRow {
+.containerReclamos .containerRow {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 30px;
-}
-
-.containerCotizador .containerRow .formCotizadorImg {
-
-    width: 100%;
-    height: 80%;
 
 }
-.containerCotizador .containerRow .formCotizador {
+
+.containerReclamos .containerRow .form1 {
 
     font-size: 20px;
-    font-family:  'Montserrat', sans-serif;
 
 }
 
-/*FIN SECTION COTIZADOR*/
+/*FIN SECTION RECLAMOS*/
 
 /*SECTION VENTA EQUIPOS*/
 

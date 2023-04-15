@@ -274,67 +274,49 @@
         </section>
     <!--FIN SECTION SERVICIOS--> 
 
-    <!--SECTION COTIZADOR-->
+    <!--SECTION RECLAMOS-->
 
-    <section class="containerCotizador" >
+    <section class="containerReclamos" >
 
-        <h2>COTIZADOR ONLINE</h2>
-
+        <h2>RECLAMOS</h2>
+        
         <div class="containerRow">
             <div class="formCotizadorImg">
                 <img src="./img/cotizador.jpg" alt="Imagencotizador"> 
             </div>
-            <div class="formCotizador">
-                    <form action="">
-                        <table>
-                            <tr>
-                                <td><label for="">Ingrese servicio a cotizar</label></td>
-                                <td>
-                                    <select class="" name="">
-                                        <option value="">Mantenimiento de computadoras</option>
-                                        <option value="">Soporte para celulares</option>
-                                        <option value="">Cámaras de seguridad</option>
-                                        <option value="">Backup en la nube</option>
-                                        <option value="">Hosting web</option>
-                                        <option value="">Software legal</option>
-                                    </select>    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><label>Ingrese subservicio</label></td>
-                                <td>
-                                    <select class="" name="" >
-                                        <option value="">Actualizacion software</option>
-                                        <option value="">Actualizacion hardware</option>
-                                        <option value="">Celular cambio componentes</option>
-                                        <option value="">Celular reparación placa</option>
-                                        <option value="">Celular falla de carga</option>
-                                        <option value="">Camaras de seguridad mantenimiento</option>
-                                        <option value>Camaras de seguridad actualización</option>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><label for="">Forma de pago</label></td>
-                                <td>
-                                    <select class="" name="">
-                                        <option value="">Contado efectivo</option>
-                                        <option value="">Tarjeta débito</option>
-                                        <option value="">Tarjeta crédito 1 pago</option>
-                                        <option value="">Tarjeta crédito 3 pagos</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <button type="submit" class="btn btn-primary">Cotizar ahora</button>
-                                </td>
-                            </tr>
-                        </table>
-    
-                    </form>
+            <div class="formReclamos">
+
+            <form class="row g-3 py-3 form1" >
+                <div class="col-md-6 py-3 ">
+                    <label for="inputNombre" class="form-label" >Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese Nombre">
+                </div>
+                <div class="col-md-6 py-3">
+                    <label for="inputApellido" class="form-label" >Apellido</label>
+                    <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese Apellido">
+                </div>
+                <div class="col-md-6 py-3">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese Email">
+                </div>
+                <div class="col-md-6 py-3">
+                    <label for="inputTelefono" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese Telefono">
+                </div>
+                <div>
+                    <textarea name="comentarios" id="" cols="100" rows="10" placeholder="Ingrese aquí su reclamo"></textarea>
+                </div>
+                
+                <div class="col-md-6 py-4">
+                    <button type="submit1" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+
             </div>
-        </div>    
+        </div> 
     </section>
+
+    <!--FIN SECTION RECLAMOS-->
 
     <!--INICIO SECTION VENTA EQUIPOS-->    
 
@@ -385,9 +367,9 @@
                 </div>
             </div>
         </section>
-    <!--FIN SECTIOS VENTA EQUIPOS--> 
+    <!--FIN SECTION VENTA EQUIPOS--> 
 
-    <!--INICIO SECTIOS CONTACTANOS--> 
+    <!--INICIO SECTION CONTACTANOS--> 
         <div class="textoContacto" id="Contactanos">
 
             <h2>CONTACTANOS</h2>
@@ -434,7 +416,7 @@
                 </div>
                 
                 <div class="col-md-6 py-4">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit2" class="btn btn-primary">Enviar</button>
                 </div>
             </form>
 
