@@ -114,7 +114,7 @@ background: url(./img/imagenSeccion-1.jpg);
 background-attachment: fixed;
 background-size: cover;
 text-align: center;
-font-size: 10px;
+font-size: 15px;
 padding: 90px 150px;
 
 }
@@ -150,9 +150,9 @@ color: #383838;
 .sectionPrimera p {
 
     
-    font-size: 25px;
-    
-    
+    font-size: 35px;
+    color: #332C2F;
+    -webkit-text-stroke: 0.1px #332C2F;
     }
 
 /*FIN SECTION GRUPO i*/
