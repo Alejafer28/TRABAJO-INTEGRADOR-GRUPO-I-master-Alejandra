@@ -275,45 +275,49 @@
     <!--FIN SECTION SERVICIOS--> 
 
     <!--SECTION RECLAMOS-->
-
     <section class="containerReclamos" >
-
         <h2>RECLAMOS</h2>
-        
-        <div class="containerRow">
-            <div class="formCotizadorImg">
-                <img src="./img/cotizador.jpg" alt="Imagencotizador"> 
-            </div>
-            <div class="formReclamos">
 
-            <form class="row g-3 py-3 form1" >
-                <div class="col-md-6 py-3 ">
+        <div class="row">
+            <div class="col-md-6 formReclamosImg">
+                <img src="./img/reclamos.jpg" alt="Imágen de reclamos" width="800" height="475"> 
+            </div>
+            <div class="col-md-6 formReclamos">
+            
+            <form class="" id="formularioReclamos" action="" method="">
+                <div class=>
                     <label for="inputNombre" class="form-label" >Nombre</label>
                     <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese Nombre">
+                    <p></p>  
                 </div>
-                <div class="col-md-6 py-3">
+                <div class=>
                     <label for="inputApellido" class="form-label" >Apellido</label>
                     <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese Apellido">
+                    <p></p>  
                 </div>
-                <div class="col-md-6 py-3">
+                <div class=>
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese Email">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese Email">
+                    <p></p>   
                 </div>
-                <div class="col-md-6 py-3">
-                    <label for="inputTelefono" class="form-label">Telefono</label>
-                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese Telefono">
+                <div class=>
+                    <label for="inputTelefono" class="form-label">Teléfono</label>
+                    <input type="number" class="form-control" id="inputTelefono" placeholder="Ingrese Telefono">
+                    <p></p>  
                 </div>
                 <div>
-                    <textarea name="comentarios" id="" cols="100" rows="10" placeholder="Ingrese aquí su reclamo"></textarea>
+                    <textarea name="comentarios" id="comentario" cols="95" rows="5" placeholder="Ingrese aquí su reclamo"></textarea>
+                    <p></p>  
                 </div>
                 
-                <div class="col-md-6 py-4">
+                <div class="col-md-8 py-4">
                     <button type="submit1" class="btn btn-primary">Enviar</button>
                 </div>
             </form>
-
+            
             </div>
-        </div> 
+        </div>    
+        
     </section>
 
     <!--FIN SECTION RECLAMOS-->
@@ -382,7 +386,7 @@
 
             <div class="formContacto">
 
-            <form class="row g-3 py-3" >
+            <form class="row g-3 py-3">
                 <div class="col-md-6 py-3">
                     <label for="inputNombre" class="form-label" >Nombre</label>
                     <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese Nombre">
@@ -471,7 +475,7 @@
         </div>
     </footer>
 
-
+    <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
